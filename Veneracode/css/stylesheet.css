@@ -1,0 +1,825 @@
+@font-face {
+    font-family: Venera100;
+    src: local("Venera");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: Venera300;
+    src: local("Venera");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Venera500;
+    src: local("Venera");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Venera700;
+    src: local("Venera");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Venera900;
+    src: local("Venera");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: ITC Benguiat Gothic Std;
+    src: local("ITC Benguiat Gothic Std");
+    font-weight: book;
+}
+
+@font-face {
+    font-family: ITC Benguiat Gothic Std;
+    src: local("ITC Benguiat Gothic Std");
+    font-weight: italic;
+}
+
+body {
+    font-family: Venera100;
+    color: #7de8de;
+    background-color: black;
+    margin-left: 20px
+}
+
+body > .container {
+    padding-bottom: 50px;
+    background-color: black;
+}
+
+html {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 1366px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.row {
+    overflow: hidden;
+}
+
+.column {
+    float: left;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.one-whole {
+    width: 1366px;
+}
+
+.one-quarter {
+    width: 192px;
+}
+
+
+/* Header + nav */
+
+.dropdown-menu li a {
+    text-decoration: none;
+}
+
+.dropdown-toggle {
+    color: white;
+}
+
+.dropdown-menu {
+    color: white;
+}
+
+.nav {
+    font-family: Venera300;
+    position: fixed;
+    z-index: 10;
+    background-color: #f05a3f;
+    height: 60px;
+    padding-top: 20px;
+    margin-left: 35px;
+}
+
+.navcolumn {
+    float: right;
+    margin-right: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+    background-color: transparent;
+}
+
+nav a:hover {
+    color: black;
+}
+
+
+}
+a:focus,
+a:hover {
+    color: #7de8de;
+}
+.dropdown-menu {
+    background-color: #f05a3f;
+}
+.dropdown-menu>li {
+    background-color: transparent;
+}
+.dropdown-menu>li>a {
+    color: white;
+}
+.dropdown-menu>li>a:hover {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+ul {
+    list-style-type: none;
+    text-align: right;
+    margin-right: 10px;
+}
+li {
+    font-size: 10 px;
+}
+.pull-right {
+    float: right;
+    margin-right: 5px;
+}
+
+/* first page */
+.homeintro {
+    background-image: url("../images/VeneraSpecimenhome.png");
+    background-size: cover;
+    height: 768px;
+    background-position: center;
+}
+.veneratitle {
+    padding-left: 0px;
+    padding-bottom: 0;
+    padding-top: 100px;
+    line-height: 2px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    color: white;
+}
+.veneratitle h1 {
+    font-size: 100px;
+    margin-bottom: 45px;
+}
+.moment h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    padding-left: 60px;
+}
+.moment {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin
+}
+.fptag {
+    font-family: ITC Benguiat Gothic Std;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 20px;
+    text-align: right;
+    margin-right: 755px;
+    color: #f05a3f;
+    padding-top: 60px;
+}
+
+/* second page */
+.weights {
+    background-color: #000;
+    height: 256px;
+    font-family: ITC Benguiat Gothic Std;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 30px;
+    color: #7de8de;
+}
+.vweights {
+    font-size: 48px;
+    color: #f05a3f;
+}
+.um {
+    font-family: venera100;
+    font-size: 60px;
+    display: inline;
+}
+.tres {
+    font-family: venera300;
+    font-size: 60px;
+    display: inline;
+}
+.cinco {
+    font-family: venera500;
+    font-size: 60px;
+    display: inline;
+}
+.sete {
+    font-family: venera700;
+    font-size: 60px;
+    display: inline;
+}
+.nove {
+    font-family: venera900;
+    font-size: 60px;
+    display: inline;
+}
+.harukiimg {
+    background-image: url("../images/VeneraSpecimen2ndpg.png");
+    background-size: cover;
+    height: 256px;
+    background-position: right;
+    margin-left: 40px;
+}
+.endevour {
+    width: 1366px;
+    height: auto;
+    position: absolute;
+    margin-top: 0px;
+    z-index: -1;
+    padding-left: auto;
+    margin-left: auto;
+}
+.haruki {
+    font-family: venera300;
+    font-size: 16px;
+    text-align: right;
+    margin-bottom: 53px;
+    margin-top: 40px;
+    padding-right: 100px;
+    line-height: 30px;
+    color: #fff;
+}
+.haruki div {
+    position: relative;
+}
+.harsig {
+    padding-top: 10px;
+}
+.haruki div:nth-of-type(2) {
+    right: -15px;
+}
+.haruki div:nth-of-type(3) {
+    right: -50px;
+}
+.haruki div:nth-of-type(4) {
+    right: -65px;
+}
+.haruki div:nth-of-type(5) {
+    right: -85px;
+}
+.haruki div:nth-of-type(6) {
+    right: -100px;
+}
+.miles {
+    text-align: left;
+    margin-left: 520px;
+    padding-top: 20px;
+}
+.earth {
+    font-family: Venera100;
+    font-size: 48px;
+    line-height: 56px;
+    margin: 10px;
+}
+.closer {
+    font-family: Venera300;
+    font-size: 18px;
+}
+.degrees {
+    font-family: Venera500;
+    font-size: 24px;
+}
+.stars {
+    font-family: Venera700;
+    font-size: 36px;
+}
+.blue {
+    font-family: Venera900;
+    font-size: 16px;
+}
+
+/* third page */
+.alphabet {
+    font-family: venera300;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: left;
+    background-color: #000;
+    letter-spacing: 50px;
+    padding-top: 190px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    color: white;
+    height: 768px;
+}
+.abc {
+    padding-left: 10px;
+}
+.jkl {
+    margin-left: 125px;
+}
+.rst {
+    margin-left: 210px;
+}
+.figures {
+    margin-left: 310px;
+}
+.glyphs {
+    letter-spacing: 30px;
+    margin-left: 435px;
+}
+
+/*global ruless*/
+.page-header {
+    border-bottom: none;
+}
+.onesidebar {
+    width: 160px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 10%;
+    background-color: transparent;
+    font-family: venera100;
+    font-size: 30px;
+    padding-left: 5px;
+    margin-top: 120px;
+    backface-visibility: hidden;
+}
+hr {
+    display: block;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    border-style: inset;
+    border-width: .3px;
+    position: relative;
+    border-style: dotted;
+    border-color: #f05a3f;
+}
+
+/* fourth page */
+.milkyimg {
+    background-image: url("../images/VeneraSpecimenmilkyimg.png");
+    background-size: cover;
+    height: 780px;
+    background-position: center;
+    position: relative;
+    width: 1369px;
+}
+.milkytitle {
+    font-family: venera100;
+    font-size: 54px;
+    line-height: 70px;
+    text-align: left;
+    position: relative;
+    padding-left: 40px;
+    padding-top: 20px;
+    width: 1210px;
+}
+.milkytitle h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.milkytext {
+    font-family: venera100;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 340px;
+    padding-left: 40px;
+    position: relative;
+}
+.milkone {
+    font-size: 24px;
+}
+.milktwo {
+    font-size: 36px;
+}
+.milkthree {
+    font-size: 60px;
+}
+
+/* fifth page */
+.venusimg {
+    background-image: url("../images/VeneraSpecimenEmc2.png");
+    background-size: cover;
+    height: 780px;
+    background-position: center;
+    position: relative;
+}
+.venustitle {
+    font-family: venera300;
+    font-size: 54px;
+    line-height: 70px;
+    text-align: left;
+    position: relative;
+    padding-left: 40px;
+    padding-top: 20px;
+    width: 1210px;
+}
+.venustitle h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.venustext {
+    font-family: venera300;
+    font-size: 40px;
+    text-align: right;
+    margin-right: 170px;
+    margin-top: 200px;
+}
+.ovid {
+    position: relative;
+    font-family: venera300;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 50px;
+}
+.ovidsig {
+    position: relative;
+    font-family: venera300;
+    font-size: 24px;
+    text-align: left;
+    margin-left: 355px;
+    line-height: 20px;
+}
+.venusone {
+    font-size: 36px;
+}
+.venustwo {
+    font-size: 24px;
+}
+.venusthree {
+    font-size: 62px;
+}
+
+/* sixth page */
+.emcimg {
+    background-image: url("../images/VeneraSpecimenvenus.png");
+    background-size: cover;
+    height: 780px;
+    background-position: center;
+    position: relative;
+}
+.emctitle {
+    font-family: venera500;
+    font-size: 54px;
+    line-height: 70px;
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+    padding-left: 40px;
+    padding-top: 20px;
+    width: 1210px;
+}
+.emctitle h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.emctext {
+    font-family: venera500;
+    font-size: 40px;
+    text-align: right;
+    margin-top: 200px;
+    margin-right: 170px;
+    position: relative;
+    line-height: 100px;
+}
+.emcone {
+    font-size: 24px;
+    line-height: 48px;
+}
+.emctwo {
+    font-size: 48px;
+}
+.emcthree {
+    font-size: 100px;
+}
+
+/* seventh page */
+.zenithimg {
+    background-image: url("../images/VeneraSpecimenZenith.png");
+    background-size: cover;
+    height: 780px;
+    background-position: center;
+    position: relative;
+}
+.zenithtitle {
+    font-family: venera700;
+    font-size: 54px;
+    line-height: 70px;
+    text-align: left;
+    padding-left: 20px;
+    margin: 20px;
+    padding-top: 20px;
+    width: 1210px;
+}
+.zenithtitle h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.zenithtext {
+    font-family: venera700;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 200px;
+    margin-right: 170px;
+    position: relative;
+    padding-left: 40px;
+}
+.zenone {
+    font-size: 36px;
+}
+.zentwo {
+    font-size: 18px;
+}
+.zenthree {
+    font-size: 68px;
+}
+
+/* eight page */
+.gravity {
+    background-image: url("../images/VeneraSpecimengravity.png");
+    background-size: cover;
+    height: 780px;
+    background-position: center;
+    position: relative;
+}
+.gravitytitle {
+    font-family: venera900;
+    font-size: 54px;
+    line-height: 70px;
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+    margin: 20px;
+    padding-top: 20px;
+    width: 1210px;
+}
+.gravitytitle h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.gravitytext {
+    font-family: venera900;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+.gravone {
+    font-size: 24px;
+}
+.gravtwo {
+    font-size: 36px;
+}
+.gravthree {
+    font-size: 62px;
+}
+
+/*ninth page*/
+.language {
+    height: 800px;
+    background-color: black;
+}
+.langtitle {
+    font-family: venera700;
+    font-size: 24px;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 40px;
+    margin: 50px;
+    color: #f05a3f;
+}
+.langtext {
+    font-family: venera300;
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    margin-top: 150px;
+    line-height: 100px;
+}
+.langsup {
+    text-align: center;
+    position: relative;
+    font-size: 24px;
+    font-family: ITC Benguiat Gothic Std;
+    line-height: 20px;
+}
+.bar {
+    color: #f05a3f;
+    display: inline;
+}
+.langwords {
+    display: inline;
+}
+
+/* tenth page*/
+.typefacebio {
+    background-image: url("../images/spaceman1.jpg");
+    background-size: cover;
+    height: 768px;
+    background-position: bottom;
+    position: relative;
+}
+.rightbar {
+    position: absolute;
+    top: ;
+    right: 0;
+    height: 100%;
+    background-color: #f05a3f;
+}
+.rightbar p {
+    / font-family: venera500;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+.dcap {
+    position: absolute;
+    top: 0;
+    right: auto;
+    height: 768px;
+    width: 910px;
+    padding-top: 100px;
+    font-family: ITC Benguiat Gothic Std;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: white;
+    margin-left: 490px
+}
+.dcap p {
+    margin: 300px;
+}
+
+/*
+.glyphsone {
+    font-family: venera500;
+    font-size: 38px;
+    text-align: center;
+    background-color: #7de8de;
+    color: #f05a3f;
+    letter-spacing: 20px;
+    line-height: 48px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.glyphstwo {
+    font-family: venera500;
+    font-size: 38px;
+    text-align: center;
+    background-color: #747f80;
+    letter-spacing: 36px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 50px;
+}*/
+.tfsidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 768px;
+    background-color: #f05a3f;
+    font-family: venera500;
+    font-size: 22px;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+.tftext {
+    padding-left: 20px;
+    padding-top: 80px;
+    width: 670px;
+    height: auto;
+}
+.tfheader {
+    font-family: venera700;
+    font-size: 24px;
+    padding-left: 260px;
+    padding-top: 20px;
+    color: #f05a3f;
+}
+.tfcontent p {
+    font-family: ITC Benguiat Gothic Std;
+    font-size: 16px;
+    line-height: 18px;
+    padding-left: 260px;
+}
+h4 {
+    font-family: venera300;
+    font-size: 18px;
+    padding-left: 260px;
+    color: #f05a3f;
+}
+.ventitle {
+    font-family: venera700;
+    font-size: 18px;
+    padding-left: 260px;
+    color: #7de8de;
+}
+h5 {
+    font-family: ITC Benguiat Gothic Std;
+    font-size: 16px;
+    color: #7de8de;
+    padding-left: 260px;
+}
+h6 {
+    font-family: ITC Benguiat Gothic Std;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 260px;
+    color: #f05a3f;
+}
+
+/*design bio*/
+.designbio {
+    background-image: url("../images/earthrise.jpg");
+    background-size: cover;
+    height: 780px;
+    background-position: center;
+    position: relative;
+}
+.tfsidebartwo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: #f05a3f;
+    font-family: venera500;
+    font-size: 22px;
+    padding-top: 160px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+.dtext {
+    padding: 20px;
+    width: 500px;
+    height: auto;
+}
+.dheader {
+    font-family: venera700;
+    font-size: 24px;
+    padding-left: 20px;
+    margin-top: 60px;
+    color: #f05a3f;
+}
+.dcontent p {
+    font-family: ITC Benguiat Gothic Std;
+    font-size: 16px;
+    line-height: 18px;
+    padding-left: 20px;
+    width: 500px
+}
+.latlong {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding-top: 160px;
+    padding-right: 250px;
+    text-align: center;
+    color: #f05a3f;
+}
+.latlong p {
+    font-family: venera300;
+    font-size: 14px;
+}
