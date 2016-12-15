@@ -241,11 +241,6 @@
             transition: opacity 0.3s ease 0s;
         }
         
-        .recent-entries img {
-            padding-right: 10px;
-            float: left;
-        }
-        
         .photos img {
             padding-bottom: 10px;
             padding-right: 10px;
@@ -377,10 +372,6 @@
             padding-bottom: 5px;
         }
         
-        .sidebar {
-            padding: 30px;
-        }
-        
         .sidebar p {
             font-size: 13px;
             line-height: 18px;
@@ -396,33 +387,6 @@
             font-size: 14px;
         }
         /* blog styling*/
-        
-        .sidebar-form input[type="text"] {
-            height: 30px;
-            width: 125px;
-            padding: 0;
-            margin-bottom: 2px;
-            -webkit-border-radius: 4px 0 0 4px;
-            -moz-border-radius: 4px 0 0 4px;
-            border-radius: 4px 0 0 4px;
-        }
-        
-        .sidebar-form .btn {
-            height: 30px;
-            width: 125px;
-            padding-top: 0;
-            padding-bottom: 0;
-            padding-left: 10px;
-            padding-right: 10px;
-            border: 0 none;
-            margin-bottom: 2px;
-            -webkit-border-radius: 0;
-            -moz-border-radius: 0;
-            border-radius: 0;
-            -webkit-transition: background 0.5s ease 0s;
-            -moz-transition: background 0.5s ease 0s;
-            transition: background 0.5s ease 0s;
-        }
         
         .btn {
             display: inline-block;
@@ -557,6 +521,10 @@
             text-align: center;
         }
         
+        .map iframe {
+            width: 100%;
+        }
+        
         @import url(grid.css);
         @import url(form.css);
         @import url(table.css);
@@ -571,8 +539,7 @@
                 width: 344px;
             }
             /* Portfolio */
-            NOTE: Delete the portfolio hover styles from the top of the CSS file so that they aren't rendering on small devices.
- .portfolio-item {
+            .portfolio-item {
                 position: relative;
                 margin-bottom: 10px;
             }
@@ -597,6 +564,35 @@
                 opacity: .9;
                 background-color: #5adae2;
             }
+            .sidebar-form input[type="text"] {
+                height: 30px;
+                width: 125px;
+                padding: 0;
+                margin-bottom: 2px;
+                -webkit-border-radius: 4px 0 0 4px;
+                -moz-border-radius: 4px 0 0 4px;
+                border-radius: 4px 0 0 4px;
+            }
+            .sidebar-form .btn {
+                height: 30px;
+                width: 125px;
+                padding-top: 0;
+                padding-bottom: 0;
+                padding-left: 10px;
+                padding-right: 10px;
+                border: 0 none;
+                margin-bottom: 2px;
+                -webkit-border-radius: 0;
+                -moz-border-radius: 0;
+                border-radius: 0;
+                -webkit-transition: background 0.5s ease 0s;
+                -moz-transition: background 0.5s ease 0s;
+                transition: background 0.5s ease 0s;
+            }
+            .recent-entries img {
+                padding-right: 10px;
+                float: left;
+            }
         }
         /* Medium devices (desktops, 992px and up) */
         
@@ -611,5 +607,12 @@
             }
             .portfolio-title h2 {
                 margin-top: 40px;
+            }
+            .sidebar {
+                padding: 30px;
+            }
+            .map iframe {
+                width: 620px;
+                height: 350px;
             }
         }
